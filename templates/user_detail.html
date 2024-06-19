@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}User Details{% endblock %}
+{% block content %}
+    <h1>User Details</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">ID: {{ user.id }}</h5>
+            <p class="card-text"><strong>Name:</strong> {{ user.name }}</p>
+            <p class="card-text"><strong>Email:</strong> {{ user.email }}</p>
+            <p class="card-text"><strong>Role:</strong> {{ user.role }}</p>
+            <a href="{{ url_for('list_users') }}" class="btn">Back to Users List</a>
+        </div>
+    </div>
+{% endblock %}
