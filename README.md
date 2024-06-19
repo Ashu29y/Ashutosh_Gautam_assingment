@@ -19,13 +19,6 @@ This project is a simple Flask application that connects to a MySQL database and
   - [Retrieve All Users](#retrieve-all-users)
   - [Retrieve a Specific User by ID](#retrieve-a-specific-user-by-id)
 - [Additional Notes](#additional-notes)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Quick Links](#quick-links)
-- [Credits](#credits)
-- [Future Improvements](#future-improvements)
 
 ## Project Structure
 
